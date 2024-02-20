@@ -1,0 +1,13 @@
+Función obtenerCalendarioEmisiones():
+    calendario = {}
+    Para cada serie en todasLasSeries:
+        Para cada episodio en serie.episodios:
+            fechaEmision = episodio.fechaEmision
+            año = obtenerAño(fechaEmision)
+            mes = obtenerMes(fechaEmision)
+            Si calendario[año] no existe:
+                calendario[año] = {}
+            Si calendario[año][mes] no existe:
+                calendario[año][mes] = []
+            calendario[año][mes].agregar(episodio)
+    Retornar calendario

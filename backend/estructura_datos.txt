@@ -1,0 +1,30 @@
+
+
+Entidades:
+- Usuario
+  - id
+  - nombre
+  - correo electrónico
+- Serie
+  - id
+  - título
+  - descripción
+  - género
+  - director (referencia al director)
+  - actores (lista de referencias a actores)
+- Episodio
+  - id
+  - título
+  - número de episodio
+  - duración
+  - fecha de emisión
+  - serie (referencia a la serie)
+- Director
+  - id
+  - nombre
+- Actor
+  - id
+  - nombre
+- Género
+  - id
+  - nombre

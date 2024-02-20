@@ -1,0 +1,8 @@
+Función mostrarVisualizacionesUsuarioEnMes(idUsuario, año, mes):
+    visualizaciones = obtenerVisualizacionesUsuarioEnMes(idUsuario, año, mes)
+    Si visualizaciones no es vacío:
+        Mostrar "Visualizaciones de", obtenerNombreUsuario(idUsuario), "en", obtenerNombreMes(mes), "de", año
+        Para cada visualización en visualizaciones:
+            Mostrar "- Serie:", visualización.serie.título, "| Episodio:", visualización.episodio.título, "| Fecha:", visualización.fecha
+    Sino:
+        Mostrar "No hay visualizaciones para este usuario en este mes."

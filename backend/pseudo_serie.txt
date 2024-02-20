@@ -1,0 +1,13 @@
+
+Función mostrarInformaciónSerie(idSerie):
+    serie = buscarSeriePorId(idSerie)
+    Si serie no es nulo:
+        Mostrar "Título:", serie.título
+        Mostrar "Descripción:", serie.descripción
+        Mostrar "Género:", serie.género.nombre
+        Mostrar "Director:", serie.director.nombre
+        Mostrar "Actores:"
+        Para cada actor en serie.actores:
+            Mostrar "- ", actor.nombre
+    Sino:
+        Mostrar "La serie no existe."
