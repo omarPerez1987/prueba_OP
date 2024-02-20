@@ -22,7 +22,7 @@ const CurrentTime = ({ people, cities, countries }) => {
       return timeZone;
     }
     if (city === "Bogotá") {
-      const timeZone = moment.tz("America/Colombia").format('HH:mm:ss');
+      const timeZone = moment.tz("America/Bogota").format('HH:mm:ss');
       return timeZone;
     }
   };
