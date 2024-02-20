@@ -18,7 +18,7 @@
             "surname1": "Martínez",
             "age": 40,
             "height": 165,
-            "Weight": 55,
+            "weight": 55,
             "city_id": "2",
             "study_id": null,
             "gender_id": "2",
